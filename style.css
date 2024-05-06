@@ -1,0 +1,112 @@
+body{
+ min-width: 100%;
+ min-height: 100vh;
+ font-family: "Figtree", sans-serif;  
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: hsl(47, 88%, 63%);
+
+}
+
+h1, .texto1, .texto2{
+    padding-left:5% ;
+    text-align: left;
+ }
+ 
+ h1{
+     font-size: 22px;
+     font-weight: 900;
+     padding-top: 1%;
+ }
+ 
+ a{
+    font-size: 12px;
+    color: white;
+ }
+
+ a:hover{
+    color: gray;
+ }
+
+span{
+    font-size: 14px;
+    color: black;
+}
+.maincontent{
+ background-color: hsl(0, 0%, 100%);    
+ max-width: 327px;
+ max-height: 522px;
+ border-radius: 5%;    
+ box-shadow: 10px 10px;
+}
+
+.button{
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+    border-style: none;
+    padding: 2%;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: gray;
+    color: white;
+}
+
+.my-svg{
+  width: 290px; 
+  border-radius: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.texto1{
+    font-weight: 500;
+    font-size: 13px;
+    color: hsl(0, 0%, 7%);
+}
+
+.texto2{
+    font-size: 14px;
+    line-height: 1.8;
+    color: hsl(0, 0%, 50%);
+    padding-top: 1%;
+}
+
+.content{
+    margin-top: 4%;
+}
+
+.img{
+    width: 30px;
+    flex-wrap: wrap;
+}
+
+.name{
+    font-size: 14px;
+    font-weight: 900;
+    align-self: center;
+}
+
+.id-container{
+    display: flex;
+    gap: 10px;
+    height: 30px;
+    width: 150px;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.footer{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.span3{
+    font-size: 12px;
+}
+
